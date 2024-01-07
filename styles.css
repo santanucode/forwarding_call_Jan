@@ -1,0 +1,35 @@
+/* .formResponsiveHeight {
+    width: 100%;
+    max-height: 60vh;
+    padding-top: 6px;
+    overflow-y: auto;
+    scrollbar-width: "1px";
+  } */
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 3px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 3px;
+  }
+
+  .css-bj2p8a-MuiPaper-root-MuiCard-root{
+    background-color: "inherit";
+    box-shadow: none;
+  }
